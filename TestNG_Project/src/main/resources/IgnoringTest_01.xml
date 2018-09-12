@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <!--指定组 和 方法-->
+    <test name="Regression1">
+
+        <classes>
+            <class name="com.hzwq.demo.ignoring.IgnoringTest_01">
+                <methods>
+                    <!--排除测试-->
+                    <exclude name="test03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

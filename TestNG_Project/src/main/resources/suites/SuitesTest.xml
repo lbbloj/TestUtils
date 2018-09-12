@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="classes" >
+    <suite-files>
+        <suite-file path="SuitesTest_01.xml"/>
+        <suite-file path="SuitesTest_02.xml"/>
+    </suite-files>
+</suite>

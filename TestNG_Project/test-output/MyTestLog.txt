@@ -1,0 +1,1 @@
+com.hzwq.demo.loggingreporters.LoggingReporters test 2018-07-30 17:12:27 13毫秒 FAILURE

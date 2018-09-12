@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <!--指定组 和 方法-->
+    <test name="Regression1">
+
+        <classes>
+            <class name="com.hzwq.demo.parameters.Parameters">
+                <methods>
+                    <include name="test">
+                        <parameter name="testData1" value="测试数据1"/>
+                        <parameter name="testData2" value="测试数据2"/>
+                    </include>
+
+                    <include name="test2">
+                        <parameter name="name" value="张三"/>
+                        <parameter name="age" value="18"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
